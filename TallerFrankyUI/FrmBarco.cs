@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace TallerFrankyUi
 {
+
     public partial class FrmBarco : Form
     {
 

@@ -1,0 +1,6 @@
+C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\Clases\obj\Debug\net8.0\Clases.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\Clases\obj\Debug\net8.0\Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\Clases\obj\Debug\net8.0\Clases.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\Clases\obj\Debug\net8.0\Clases.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\Clases\obj\Debug\net8.0\Clases.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\Clases\obj\Debug\net8.0\Clases.sourcelink.json
