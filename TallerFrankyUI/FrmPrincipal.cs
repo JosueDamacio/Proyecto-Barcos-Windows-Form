@@ -17,11 +17,12 @@ namespace TallerFrankyUi
         {
             InitializeComponent();
             //TODO: Instanciar el taller
+            
         }
 
         private void btnCargarBarco_Click(object sender, EventArgs e)
         {
-            
+            Frm
         }
 
         private void btnReparar_Click(object sender, EventArgs e)

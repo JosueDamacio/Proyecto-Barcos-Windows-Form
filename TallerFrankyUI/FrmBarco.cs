@@ -29,7 +29,7 @@ namespace TallerFrankyUi
             //TODO:Validar si el barco es pirata o marina y lo instancio
             // retornar DialogResult OK y cerrar el formulario
             // 
-
+            
             
         }
      

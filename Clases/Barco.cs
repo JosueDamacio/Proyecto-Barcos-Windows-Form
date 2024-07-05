@@ -1,21 +1,37 @@
 ﻿
 using System.Text;
+using static Clases.Barco;
 
 namespace Clases
 {
     public abstract class Barco
     {
+        public enum EOperacion
+        {
+            Rerarar_Mastil,
+            Pintar,
+            Cambiar_Velas,
+            Reparar_Mascaron,
+            Reparar_Casco,
+            Recargar_Cañones
+        }
+        public enum ETipoBarco
+        {
+            Pirata,
+            Marina
+        }
+
         float costo;
         bool estadoReparado;
         string nombre;
-        EOPeracion operacion;
+        private EOperacion operacion;
         int tripulacion;
 
         public float Costo { get => costo; set => costo = value; }
         public bool EstadoReparado { get => estadoReparado; set => estadoReparado = value; }
         public string Nombre { get => nombre; set => nombre = value; }
-        public EOPeracion OPeracion { get => oPeracion; set => oPeracion = value; }
-        public abstract int Tripulacion { get => tripulacion; set => tripulacion = value; }
+        public EOperacion OPeracion { get => operacion; set => operacion = value; }
+        abstract public int Tripulacion();
 
 
         #region metodos
@@ -65,4 +81,5 @@ namespace Clases
 
 
         }
+
 }

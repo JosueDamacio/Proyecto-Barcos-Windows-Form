@@ -11,10 +11,18 @@ namespace Clases
     {
         public override int Tripulacion
         {
-
-  
-            get => Tripulacion; //condicion
-            set =>GenerarRandom.EnteroAleatorio(); 
+            get
+            {
+                return Tripulacion;
+            }
+            set
+            {
+                if (value <= 0)
+                {
+                    Tripulacion = GenerarRandom.EnteroAleatorio(10,30);
+                }
+                Tripulacion = value;
+            }
         
         }
 
@@ -25,7 +33,8 @@ namespace Clases
 
         public override void CalcularCosto()
         {
-            throw new NotImplementedException();
+            int costo = GenerarRandom.EnteroAleatorio(2000,12000);
+            this.Costo = costo;
         }
 
         public void CalcularCostos()
@@ -35,7 +44,7 @@ namespace Clases
         
         public override string ToString()
         {
-
+            return base.ToString();
         }
 
     }

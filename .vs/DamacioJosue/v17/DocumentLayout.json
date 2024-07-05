@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\pirata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\pirata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\barco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\barco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\taller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\taller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\xmlmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\xmlmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\iarchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\iarchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\generarrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\generarrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\marina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\marina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clases\\enumerados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\enumerados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\TallerFrankyUI.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\TallerFrankyUI.csproj|C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\TallerFrankyUI.csproj|solutionrelative:tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\clases\\barco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEBBBB79-24B4-45CD-81AC-052F69E2E51E}|Clases\\Clases.csproj|solutionrelative:clases\\barco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,129 +50,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Taller.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Taller.cs",
-              "RelativeDocumentMoniker": "Clases\\Taller.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Taller.cs",
-              "RelativeToolTip": "Clases\\Taller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "FrmBarco.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmBarco.cs",
+              "RelativeDocumentMoniker": "TallerFrankyUI\\FrmBarco.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmBarco.cs",
+              "RelativeToolTip": "TallerFrankyUI\\FrmBarco.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T18:10:55.119Z",
+              "WhenOpened": "2024-07-05T19:50:29.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "XmlManager.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\XmlManager.cs",
-              "RelativeDocumentMoniker": "Clases\\XmlManager.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\XmlManager.cs",
-              "RelativeToolTip": "Clases\\XmlManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T18:09:46.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IArchivos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\IArchivos.cs",
-              "RelativeDocumentMoniker": "Clases\\IArchivos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\IArchivos.cs",
-              "RelativeToolTip": "Clases\\IArchivos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T18:08:15.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GenerarRandom.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\GenerarRandom.cs",
-              "RelativeDocumentMoniker": "Clases\\GenerarRandom.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\GenerarRandom.cs",
-              "RelativeToolTip": "Clases\\GenerarRandom.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T18:04:27.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "Clases\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\AccesoDatos.cs",
-              "RelativeToolTip": "Clases\\AccesoDatos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T18:00:50.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "FrmBarco.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmBarco.cs",
               "RelativeDocumentMoniker": "TallerFrankyUI\\FrmBarco.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmBarco.cs [Dise\u00F1o]",
               "RelativeToolTip": "TallerFrankyUI\\FrmBarco.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T17:54:28.113Z",
+              "WhenOpened": "2024-07-05T19:50:16.99Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Enumerados.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Enumerados.cs",
-              "RelativeDocumentMoniker": "Clases\\Enumerados.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Enumerados.cs",
-              "RelativeToolTip": "Clases\\Enumerados.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "DocumentIndex": 3,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "TallerFrankyUI\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmPrincipal.cs",
+              "RelativeToolTip": "TallerFrankyUI\\FrmPrincipal.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T17:54:19.375Z",
+              "WhenOpened": "2024-07-05T19:48:05.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Marina.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Marina.cs",
-              "RelativeDocumentMoniker": "Clases\\Marina.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Marina.cs",
-              "RelativeToolTip": "Clases\\Marina.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "TallerFrankyUI\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TallerFrankyUI\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T17:50:57.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T19:47:59.813Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pirata.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Pirata.cs",
-              "RelativeDocumentMoniker": "Clases\\Pirata.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Pirata.cs",
-              "RelativeToolTip": "Clases\\Pirata.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAwAAAA",
+              "DocumentIndex": 2,
+              "Title": "FrmBarco.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmBarco.cs",
+              "RelativeDocumentMoniker": "TallerFrankyUI\\FrmBarco.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmBarco.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TallerFrankyUI\\FrmBarco.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T17:47:10.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T17:54:28.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Barco.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Barco.cs",
               "RelativeDocumentMoniker": "Clases\\Barco.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Barco.cs",
               "RelativeToolTip": "Clases\\Barco.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAA3AAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwCEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T17:43:22.544Z",
               "EditorCaption": ""
