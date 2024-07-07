@@ -1,2 +1,0 @@
-C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\TallerFrankyUI\obj\Debug\Parcial.WindowsForm.exe
-C:\Users\Usuario\Desktop\SP_LABORATORIO_II_A221_Damacio_Josue\TallerFrankyUI\obj\Debug\Parcial.WindowsForm.pdb

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmbarco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmreparacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmreparacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\tallerfrankyui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\clases\\marina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:clases\\marina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\tallerfrankyui\\frmreparacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8A7D2B59-C597-4B84-B1AD-19698B1956DB}|TallerFrankyUI\\Forms.csproj|solutionrelative:tallerfrankyui\\frmreparacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\usuario\\desktop\\sp_laboratorio_ii_a221_damacio_josue\\clasesproyecto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +62,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmReparacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmReparacion.cs",
+              "RelativeDocumentMoniker": "TallerFrankyUI\\FrmReparacion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmReparacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TallerFrankyUI\\FrmReparacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:18:03.051Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "TallerFrankyUI\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TallerFrankyUI\\FrmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T15:16:10.928Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FrmBarco.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmBarco.cs",
@@ -70,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\ClasesProyecto\\Class1.cs",
               "RelativeDocumentMoniker": "ClasesProyecto\\Class1.cs",
@@ -82,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GenerarRandom.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\GenerarRandom.cs",
               "RelativeDocumentMoniker": "Clases\\GenerarRandom.cs",
@@ -94,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Marina.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Marina.cs",
               "RelativeDocumentMoniker": "Clases\\Marina.cs",
@@ -102,23 +130,11 @@
               "RelativeToolTip": "Clases\\Marina.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T20:02:39.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T20:02:39.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmReparacion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmReparacion.cs",
-              "RelativeDocumentMoniker": "TallerFrankyUI\\FrmReparacion.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\TallerFrankyUI\\FrmReparacion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TallerFrankyUI\\FrmReparacion.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T20:01:17.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IArchivos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\IArchivos.cs",
               "RelativeDocumentMoniker": "Clases\\IArchivos.cs",
@@ -130,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Barco.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Barco.cs",
               "RelativeDocumentMoniker": "Clases\\Barco.cs",
@@ -142,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Pirata.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SP_LABORATORIO_II_A221_Damacio_Josue\\Clases\\Pirata.cs",
               "RelativeDocumentMoniker": "Clases\\Pirata.cs",
