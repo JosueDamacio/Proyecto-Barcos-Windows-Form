@@ -47,15 +47,14 @@ namespace SP_JosueDamacio
                 //lo intente parsear de mil maneras jafhasjs
                 ETipoBarco tipo = (ETipoBarco)Enum.Parse(typeof(ETipoBarco), cmBoxTipo.Text);
                 EOperacion operacion = (EOperacion)Enum.Parse(typeof(EOperacion), cmBoxOperacion.Text);
-                int tripulacion = int.Parse(txtTripulacion.Text);
 
                 if (tipo == ETipoBarco.Marina)
                 {
-                    barcoForm = new Marina(nombre, tipo, operacion, tripulacion);
+                    barcoForm = new Marina(nombre, tipo, operacion);
                 }
                 else if (tipo == ETipoBarco.Pirata)
                 {
-                    barcoForm = new Pirata(nombre, tipo, operacion, tripulacion);
+                    barcoForm = new Pirata(nombre, tipo, operacion);
                 }
 
                 foreach (var barco in listaBarcos)

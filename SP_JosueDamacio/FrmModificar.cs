@@ -28,6 +28,9 @@ namespace SP_JosueDamacio
             listaBarcos = data.SeleccionarEmpleados();
             dGridBarcos.DataSource = listaBarcos;
             dGridBarcos.Columns["Id"].Visible = false;
+            dGridBarcos.Columns["Costo"].Visible = false;
+            dGridBarcos.Columns["OPeracion"].Visible = false;
+            dGridBarcos.Columns["EstadoReparado"].Visible = false;
 
             foreach (ETipoBarco p in Enum.GetValues(typeof(ETipoBarco)))
             {
@@ -70,7 +73,6 @@ namespace SP_JosueDamacio
 
                 barcoMod.Nombre = txtNombreBarco.Text;
                 barcoMod.Tipo = tipo;
-                barcoMod.Tripulacion = int.Parse(txtTripulacion.Text);
 
                 this.DialogResult = DialogResult.OK;
             }
@@ -90,7 +92,6 @@ namespace SP_JosueDamacio
                 // obtengo el dato de las columnasd e la fila seleccionada
                 txtNombreBarco.Text = filaSeleccionada.Cells["nombre"].Value.ToString();
                 cmBoxTipo.Text = filaSeleccionada.Cells["tipo"].Value.ToString();
-                txtTripulacion.Text = filaSeleccionada.Cells["tripulacion"].Value.ToString();
             }
         }
     }

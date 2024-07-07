@@ -118,17 +118,16 @@ namespace Clases
 
             }
         }
-        public void Eliminar(int id, string nombreBarco)
+        public void Eliminar(string nombreBarco)
         {
             using (var connection = ConectarBD())
             {
                 connection.Open();
-                string query = "DELETE FROM barcos WHERE id = @id AND nombre = @nombreBarco";
+                string query = "DELETE FROM barcos WHERE nombreBarco = @nombreBarco";
                 MySqlCommand commando = new MySqlCommand(query, connection);
                 commando.CommandText = query;
 
-                commando.Parameters.AddWithValue("@id", id);
-                commando.Parameters.AddWithValue("@nombre", nombreBarco);
+                commando.Parameters.AddWithValue("@nombreBarco", nombreBarco);
                 commando.ExecuteNonQuery();
             }
         }

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panHeader = new Panel();
             panel2 = new Panel();
             panel3 = new Panel();
@@ -41,10 +41,7 @@
             programadoresToolStripMenuItem = new ToolStripMenuItem();
             ingenierosToolStripMenuItem = new ToolStripMenuItem();
             ordenarlosToolStripMenuItem = new ToolStripMenuItem();
-            porToolStripMenuItem = new ToolStripMenuItem();
-            nombreToolStripMenuItem = new ToolStripMenuItem();
             lstBarcos = new ListBox();
-            checkBoxDarkMode = new CheckBox();
             btnSalir = new Button();
             rbVerLista = new RadioButton();
             rbVerGrilla = new RadioButton();
@@ -58,7 +55,7 @@
             // 
             panHeader.BackColor = Color.FromArgb(192, 192, 255);
             panHeader.Dock = DockStyle.Top;
-            panHeader.Location = new Point(0, 24);
+            panHeader.Location = new Point(0, 33);
             panHeader.Name = "panHeader";
             panHeader.Size = new Size(800, 27);
             panHeader.TabIndex = 0;
@@ -67,28 +64,28 @@
             // 
             panel2.BackColor = Color.Silver;
             panel2.Dock = DockStyle.Right;
-            panel2.Location = new Point(783, 51);
+            panel2.Location = new Point(783, 60);
             panel2.Name = "panel2";
-            panel2.Size = new Size(17, 399);
+            panel2.Size = new Size(17, 390);
             panel2.TabIndex = 1;
             // 
             // panel3
             // 
             panel3.BackColor = Color.Silver;
             panel3.Dock = DockStyle.Left;
-            panel3.Location = new Point(0, 51);
+            panel3.Location = new Point(0, 60);
             panel3.Name = "panel3";
-            panel3.Size = new Size(17, 399);
+            panel3.Size = new Size(17, 390);
             panel3.TabIndex = 2;
             // 
             // menuStrip1
             // 
             menuStrip1.BackColor = Color.FromArgb(128, 128, 255);
-            menuStrip1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            menuStrip1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             menuStrip1.Items.AddRange(new ToolStripItem[] { añadirToolStripMenuItem, coleccionesToolStripMenuItem, ordenarlosToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Size = new Size(800, 33);
             menuStrip1.TabIndex = 3;
             menuStrip1.Text = "menu";
             // 
@@ -96,27 +93,27 @@
             // 
             añadirToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { añadirToolStripMenuItem1, modificarToolStripMenuItem, eliminarToolStripMenuItem });
             añadirToolStripMenuItem.Name = "añadirToolStripMenuItem";
-            añadirToolStripMenuItem.Size = new Size(52, 20);
+            añadirToolStripMenuItem.Size = new Size(76, 29);
             añadirToolStripMenuItem.Text = "CRUD";
             // 
             // añadirToolStripMenuItem1
             // 
             añadirToolStripMenuItem1.Name = "añadirToolStripMenuItem1";
-            añadirToolStripMenuItem1.Size = new Size(127, 22);
+            añadirToolStripMenuItem1.Size = new Size(170, 30);
             añadirToolStripMenuItem1.Text = "Añadir";
             añadirToolStripMenuItem1.Click += añadirToolStripMenuItem1_Click;
             // 
             // modificarToolStripMenuItem
             // 
             modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            modificarToolStripMenuItem.Size = new Size(127, 22);
+            modificarToolStripMenuItem.Size = new Size(170, 30);
             modificarToolStripMenuItem.Text = "Modificar";
             modificarToolStripMenuItem.Click += modificarToolStripMenuItem_Click_1;
             // 
             // eliminarToolStripMenuItem
             // 
             eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            eliminarToolStripMenuItem.Size = new Size(127, 22);
+            eliminarToolStripMenuItem.Size = new Size(170, 30);
             eliminarToolStripMenuItem.Text = "Eliminar";
             eliminarToolStripMenuItem.Click += eliminarToolStripMenuItem_Click;
             // 
@@ -124,61 +121,38 @@
             // 
             coleccionesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { programadoresToolStripMenuItem, ingenierosToolStripMenuItem });
             coleccionesToolStripMenuItem.Name = "coleccionesToolStripMenuItem";
-            coleccionesToolStripMenuItem.Size = new Size(84, 20);
-            coleccionesToolStripMenuItem.Text = "Colecciones";
+            coleccionesToolStripMenuItem.Size = new Size(102, 29);
+            coleccionesToolStripMenuItem.Text = "Acciones";
             // 
             // programadoresToolStripMenuItem
             // 
             programadoresToolStripMenuItem.Name = "programadoresToolStripMenuItem";
-            programadoresToolStripMenuItem.Size = new Size(159, 22);
-            programadoresToolStripMenuItem.Text = "Programadores";
+            programadoresToolStripMenuItem.Size = new Size(282, 30);
+            programadoresToolStripMenuItem.Text = "Reparar";
             // 
             // ingenierosToolStripMenuItem
             // 
             ingenierosToolStripMenuItem.Name = "ingenierosToolStripMenuItem";
-            ingenierosToolStripMenuItem.Size = new Size(159, 22);
-            ingenierosToolStripMenuItem.Text = "Ingenieros";
+            ingenierosToolStripMenuItem.Size = new Size(282, 30);
+            ingenierosToolStripMenuItem.Text = "Guardar Registro XML";
             // 
             // ordenarlosToolStripMenuItem
             // 
-            ordenarlosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { porToolStripMenuItem, nombreToolStripMenuItem });
             ordenarlosToolStripMenuItem.Name = "ordenarlosToolStripMenuItem";
-            ordenarlosToolStripMenuItem.Size = new Size(87, 20);
+            ordenarlosToolStripMenuItem.Size = new Size(134, 29);
             ordenarlosToolStripMenuItem.Text = "Ordenar Por";
-            // 
-            // porToolStripMenuItem
-            // 
-            porToolStripMenuItem.Name = "porToolStripMenuItem";
-            porToolStripMenuItem.Size = new Size(120, 22);
-            porToolStripMenuItem.Text = "Salario";
-            // 
-            // nombreToolStripMenuItem
-            // 
-            nombreToolStripMenuItem.Name = "nombreToolStripMenuItem";
-            nombreToolStripMenuItem.Size = new Size(120, 22);
-            nombreToolStripMenuItem.Text = "Nombre";
+            ordenarlosToolStripMenuItem.Click += ordenarlosToolStripMenuItem_Click;
             // 
             // lstBarcos
             // 
-            lstBarcos.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lstBarcos.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lstBarcos.FormattingEnabled = true;
-            lstBarcos.ItemHeight = 21;
-            lstBarcos.Location = new Point(71, 90);
+            lstBarcos.ItemHeight = 20;
+            lstBarcos.Location = new Point(44, 90);
             lstBarcos.Name = "lstBarcos";
-            lstBarcos.Size = new Size(651, 298);
+            lstBarcos.Size = new Size(709, 284);
             lstBarcos.TabIndex = 4;
             lstBarcos.Visible = false;
-            // 
-            // checkBoxDarkMode
-            // 
-            checkBoxDarkMode.AutoSize = true;
-            checkBoxDarkMode.Location = new Point(359, 418);
-            checkBoxDarkMode.Name = "checkBoxDarkMode";
-            checkBoxDarkMode.Size = new Size(99, 19);
-            checkBoxDarkMode.TabIndex = 6;
-            checkBoxDarkMode.Text = "Modo Oscuro";
-            checkBoxDarkMode.UseVisualStyleBackColor = true;
-            checkBoxDarkMode.CheckedChanged += checkBoxDarkMode_CheckedChanged;
             // 
             // btnSalir
             // 
@@ -193,7 +167,7 @@
             // rbVerLista
             // 
             rbVerLista.AutoSize = true;
-            rbVerLista.Location = new Point(153, 417);
+            rbVerLista.Location = new Point(130, 418);
             rbVerLista.Name = "rbVerLista";
             rbVerLista.Size = new Size(97, 19);
             rbVerLista.TabIndex = 8;
@@ -205,7 +179,7 @@
             // rbVerGrilla
             // 
             rbVerGrilla.AutoSize = true;
-            rbVerGrilla.Location = new Point(253, 417);
+            rbVerGrilla.Location = new Point(242, 418);
             rbVerGrilla.Name = "rbVerGrilla";
             rbVerGrilla.Size = new Size(100, 19);
             rbVerGrilla.TabIndex = 9;
@@ -222,14 +196,14 @@
             dGridBarcos.AllowUserToResizeRows = false;
             dGridBarcos.BackgroundColor = SystemColors.ButtonHighlight;
             dGridBarcos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = SystemColors.Window;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = Color.LightSkyBlue;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            dGridBarcos.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.LightSkyBlue;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
+            dGridBarcos.DefaultCellStyle = dataGridViewCellStyle1;
             dGridBarcos.GridColor = SystemColors.Menu;
             dGridBarcos.Location = new Point(84, 90);
             dGridBarcos.MultiSelect = false;
@@ -262,7 +236,6 @@
             Controls.Add(rbVerGrilla);
             Controls.Add(rbVerLista);
             Controls.Add(btnSalir);
-            Controls.Add(checkBoxDarkMode);
             Controls.Add(lstBarcos);
             Controls.Add(panel2);
             Controls.Add(panel3);
@@ -273,6 +246,7 @@
             Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += FrmPrincipal_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dGridBarcos).EndInit();
@@ -293,10 +267,7 @@
         private ToolStripMenuItem programadoresToolStripMenuItem;
         private ToolStripMenuItem ingenierosToolStripMenuItem;
         private ToolStripMenuItem ordenarlosToolStripMenuItem;
-        private ToolStripMenuItem porToolStripMenuItem;
-        private ToolStripMenuItem nombreToolStripMenuItem;
         protected ListBox lstBarcos;
-        private CheckBox checkBoxDarkMode;
         private Button btnSalir;
         private RadioButton rbVerLista;
         private RadioButton rbVerGrilla;

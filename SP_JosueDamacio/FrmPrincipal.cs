@@ -26,13 +26,17 @@ namespace SP_JosueDamacio
 
             dGridBarcos.Hide();
             rbVerLista.Checked = true;
-            checkBoxVer.Checked = true;
 
             listaBarcos = data.SeleccionarEmpleados();
             //hace conexion entre una table o base de datos mapeando y mostrando en la listbox
             lstBarcos.DataSource = listaBarcos;
             dGridBarcos.DataSource = listaBarcos;
             dGridBarcos.Columns["Id"].Visible = true;
+            dGridBarcos.Columns["Costo"].Visible = false;
+        }
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
         private void btnSalir_Click(object sender, EventArgs e)
         {
@@ -42,29 +46,6 @@ namespace SP_JosueDamacio
             else { this.Close(); }
         }
 
-        private void checkBoxDarkMode_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBoxDarkMode.Checked)
-            {
-                this.BackColor = Color.DarkGray;
-                lstBarcos.BackColor = Color.Gray;
-                lstBarcos.ForeColor = Color.White;
-                dGridBarcos.ColumnHeadersDefaultCellStyle.BackColor = Color.DarkSlateGray;
-                dGridBarcos.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
-                dGridBarcos.DefaultCellStyle.BackColor = Color.Gray;
-                dGridBarcos.DefaultCellStyle.ForeColor = Color.White;
-            }
-            else
-            {
-                this.BackColor = Color.White;
-                lstBarcos.BackColor = Color.White;
-                lstBarcos.ForeColor = Color.Black;
-                dGridBarcos.ColumnHeadersDefaultCellStyle.BackColor = Color.White;
-                dGridBarcos.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
-                dGridBarcos.DefaultCellStyle.BackColor = Color.White;
-                dGridBarcos.DefaultCellStyle.ForeColor = Color.Black;
-            }
-        }
         private void checkBoxVer_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxVer.Checked)
@@ -96,7 +77,7 @@ namespace SP_JosueDamacio
                             bPirtata.Nombre = formulario.barcoForm.Nombre;
                             bPirtata.OPeracion = formulario.barcoForm.OPeracion;
                             bPirtata.Tripulacion = formulario.barcoForm.Tripulacion;
-                            bPirtata.Tipo = formulario.barcoForm.Tipo; 
+                            bPirtata.Tipo = formulario.barcoForm.Tipo;
                             guardado = data.Guardar(bPirtata);
                         }
                         else if (formulario.barcoForm is Marina)
@@ -239,6 +220,11 @@ namespace SP_JosueDamacio
                     this.dGridBarcos.Hide();
                 }
             }
+        }
+
+        private void ordenarlosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Esto no me dio tiempo de implementar");
         }
     }
 }

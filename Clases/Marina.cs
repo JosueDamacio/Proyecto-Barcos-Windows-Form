@@ -23,8 +23,8 @@ namespace Clases
             }
         }
 
-        public Marina(string nombre, ETipoBarco tipo, EOperacion operacion, int tripulacion)
-            : base(nombre,tipo,operacion,tripulacion)
+        public Marina(string nombre, ETipoBarco tipo, EOperacion operacion)
+            : base(nombre,tipo,operacion)
         {
             this.Tripulacion = tripulacion;
         }
@@ -41,10 +41,11 @@ namespace Clases
 
         public override string ToString()
         {
-            return base.ToString();
+            StringBuilder sw = new StringBuilder();
+            sw.Append(base.ToString());
+            sw.AppendLine($"--- Cant.Tripulacion: {tripulacion}");
+
+            return sw.ToString();
         }
-
-
-
     }
 }

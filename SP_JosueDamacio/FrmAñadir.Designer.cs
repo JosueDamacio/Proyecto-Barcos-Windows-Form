@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            label5 = new Label();
-            txtTripulacion = new TextBox();
             btnAñadir = new Button();
             btnCancelar = new Button();
             panel1 = new Panel();
@@ -51,22 +49,6 @@
             label1.Size = new Size(51, 15);
             label1.TabIndex = 4;
             label1.Text = "Nombre";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(142, 363);
-            label5.Name = "label5";
-            label5.Size = new Size(65, 15);
-            label5.TabIndex = 12;
-            label5.Text = "Tripulacion";
-            // 
-            // txtTripulacion
-            // 
-            txtTripulacion.Location = new Point(132, 381);
-            txtTripulacion.Name = "txtTripulacion";
-            txtTripulacion.Size = new Size(215, 23);
-            txtTripulacion.TabIndex = 13;
             // 
             // btnAñadir
             // 
@@ -170,8 +152,6 @@
             Controls.Add(panel1);
             Controls.Add(btnCancelar);
             Controls.Add(btnAñadir);
-            Controls.Add(txtTripulacion);
-            Controls.Add(label5);
             Controls.Add(label1);
             Controls.Add(txtNombre);
             FormBorderStyle = FormBorderStyle.None;
@@ -184,8 +164,6 @@
 
         #endregion
         private Label label1;
-        private Label label5;
-        private TextBox txtTripulacion;
         private Button btnAñadir;
         private Button btnCancelar;
         private Panel panel1;

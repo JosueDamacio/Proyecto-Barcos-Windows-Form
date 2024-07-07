@@ -26,13 +26,12 @@ namespace Clases
 
 
 
-        #region metodos
 
         public Barco()
         {
-            //+ sobrecarga   
+
         }
-        protected Barco(string nombre, ETipoBarco tipo, EOperacion operacion, int tripulacion)
+        protected Barco(string nombre, ETipoBarco tipo, EOperacion operacion)
         {
             this.nombre = nombre;
             this.Tipo = tipo;
@@ -42,7 +41,7 @@ namespace Clases
 
         public abstract void CalcularCosto();
 
-        public bool CompararBarcos(Barco b2,Barco b1)
+        public bool CompararBarcos(Barco b2, Barco b1)
         {
             if (b1.nombre == b2.nombre)
             {
@@ -54,35 +53,27 @@ namespace Clases
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Costo: {costo}");
-            sb.AppendLine($"Estado: {estadoReparado}");
-            sb.AppendLine($"Nombre: {Nombre}");
+            sb.AppendLine($"Nombre: {Nombre} ---");
+            sb.AppendLine($"Estado reparacion: {estadoReparado}---");
             sb.AppendLine($"Operación: {OPeracion}");
-            sb.AppendLine($"Tripulación : {tripulacion}");
+            //sb.AppendLine($"Costo: {costo}");
+            //sb.AppendLine($"Tripulación : {tripulacion}");
 
             return sb.ToString();
         }
-
-        #endregion
-
-        #region Sobrecarga Operadores
 
         public static bool operator ==(Barco b1, Barco b2)
         {
             bool esIgual = false;
             if (b1.nombre == b2.nombre)
             {
-                esIgual= true;
+                esIgual = true;
             }
             return esIgual;
         }
         public static bool operator !=(Barco b1, Barco b2)
-        {return !(b1 == b2);}
+        { return !(b1 == b2); }
 
-
-            #endregion
-
-
-        }
+    }
 
 }

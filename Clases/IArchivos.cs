@@ -8,7 +8,7 @@ namespace Clases
 {
     internal interface IArchivos
     {
-        public bool Guardar();
+        public bool Guardar(List<Barco> listaBarcos);
         public List<Barco> leer();
 
     }

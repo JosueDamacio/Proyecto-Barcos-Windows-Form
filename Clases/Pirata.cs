@@ -27,8 +27,8 @@ namespace Clases
         
         }
 
-        public Pirata(string nombre, ETipoBarco tipo, EOperacion operacion, int tripulacion)
-            : base(nombre, tipo, operacion, tripulacion)
+        public Pirata(string nombre, ETipoBarco tipo, EOperacion operacion)
+            : base(nombre, tipo, operacion)
         {
             this.Tripulacion = tripulacion;
         }
@@ -42,15 +42,14 @@ namespace Clases
             int costo = GenerarRandom.EnteroAleatorio(2000,12000);
             this.Costo = costo;
         }
-
-        public void CalcularCostos()
-        {
-
-        }
         
         public override string ToString()
         {
-            return base.ToString();
+            StringBuilder sw = new StringBuilder();
+            sw.Append(base.ToString());
+            sw.AppendLine($"--- Cant.Tripulacion: {tripulacion}");
+
+            return sw.ToString();
         }
 
     }

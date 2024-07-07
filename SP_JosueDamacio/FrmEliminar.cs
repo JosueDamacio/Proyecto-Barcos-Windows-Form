@@ -28,12 +28,11 @@ namespace SP_JosueDamacio
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             string nombreBarco = txtNombre.Text;
-            int id = int.Parse(txtId.Text);
 
             try
             {
                 listaEmpleados = data.SeleccionarEmpleados();
-                data.Eliminar(id, nombreBarco);
+                data.Eliminar(nombreBarco);
             }
             catch (Exception ex)
             {

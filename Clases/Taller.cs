@@ -8,18 +8,19 @@ namespace Clases
 {
     internal class Taller
     {
-        List<Barco> barcos;
-        public List<Barco> Barcos { get => barcos; set => barcos = value; }
+        AccesoDatos data;
+        List<Barco> listBarcos;
+        public List<Barco> ListBarcos { get => listBarcos; set => listBarcos = value; }
 
         public Taller()
         {
-            barcos = new List<Barco>();
-
+            listBarcos = new List<Barco>();
+            data = new AccesoDatos("localhost", "taller");
         }
 
         public bool EncontrarBarco(Barco b)
         {
-            foreach (Barco barco in barcos)
+            foreach (Barco barco in listBarcos)
             {
                 if (b == barco)
                 {
@@ -33,25 +34,23 @@ namespace Clases
         {
             if (!EncontrarBarco(b))
             {
-                barcos.Add(b);
+                listBarcos.Add(b);
             }
             return this;
         }
         public bool Reparar(object x)
         {
-            if (x is Taller)
+            if (x is Taller tallerRecibido)
             {
-                foreach(Barco bar in barcos)
+                foreach(Barco bar in tallerRecibido.listBarcos)
                 {
                     if (bar.EstadoReparado == false)
                     {
                         bar.CalcularCosto();
-
-
-
-
-
                         bar.EstadoReparado = true;
+
+                        data.Modificar(bar);
+
                         return true;
                     }
                     return false;

@@ -31,12 +31,10 @@
             panel1 = new Panel();
             panel2 = new Panel();
             txtNombre = new TextBox();
-            txtId = new TextBox();
             btnEliminar = new Button();
             btnCancelar = new Button();
             panel3 = new Panel();
             label1 = new Label();
-            label3 = new Label();
             SuspendLayout();
             // 
             // panel1
@@ -60,22 +58,14 @@
             // txtNombre
             // 
             txtNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtNombre.Location = new Point(39, 122);
+            txtNombre.Location = new Point(42, 179);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(238, 29);
             txtNombre.TabIndex = 2;
             // 
-            // txtId
-            // 
-            txtId.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtId.Location = new Point(39, 211);
-            txtId.Name = "txtId";
-            txtId.Size = new Size(238, 29);
-            txtId.TabIndex = 4;
-            // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(119, 288);
+            btnEliminar.Location = new Point(55, 294);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(75, 23);
             btnEliminar.TabIndex = 5;
@@ -85,7 +75,7 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(119, 344);
+            btnCancelar.Location = new Point(190, 294);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(75, 23);
             btnCancelar.TabIndex = 6;
@@ -107,33 +97,20 @@
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(192, 255, 255);
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(54, 99);
+            label1.Location = new Point(104, 132);
             label1.Name = "label1";
             label1.Size = new Size(106, 20);
             label1.TabIndex = 8;
             label1.Text = "Nombre Barco";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.FromArgb(192, 255, 255);
-            label3.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(54, 188);
-            label3.Name = "label3";
-            label3.Size = new Size(22, 20);
-            label3.TabIndex = 10;
-            label3.Text = "Id";
             // 
             // FrmEliminar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(322, 445);
-            Controls.Add(label3);
             Controls.Add(label1);
             Controls.Add(btnCancelar);
             Controls.Add(btnEliminar);
-            Controls.Add(txtId);
             Controls.Add(txtNombre);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -150,11 +127,9 @@
         private Panel panel1;
         private Panel panel2;
         private TextBox txtNombre;
-        private TextBox txtId;
         private Button btnEliminar;
         private Button btnCancelar;
         private Panel panel3;
         private Label label1;
-        private Label label3;
     }
 }
