@@ -1,4 +1,4 @@
-# SP_LABORATORIO_II_A221_Damacio_Josue
+# Proyecto Barcos Windows Form
 
 ### Este proyecto nesecita de una BD local para funcionar
 
